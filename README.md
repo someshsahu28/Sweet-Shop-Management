@@ -153,14 +153,15 @@ Implemented JWT-based authentication with register and login endpoints.
 
 Co-authored-by: AI Assistant <ai@example.com>
 ```
+<img width="1918" height="1017" alt="sweet1" src="https://github.com/user-attachments/assets/721a5924-f8e8-404b-af01-d9dd37b2acb0" />
+<img width="1892" height="916" alt="sweet2" src="https://github.com/user-attachments/assets/24a9aa6d-c7e7-4c51-ae57-435cd7b7ed14" />
+<img width="1895" height="952" alt="sweet3" src="https://github.com/user-attachments/assets/36e68eaf-3c83-4b55-b242-c43841f2b543" />
+<img width="1907" height="957" alt="sweet4" src="https://github.com/user-attachments/assets/397efdf2-fbc2-4cd4-b970-e9eaf5d41e80" />
+<img width="1890" height="920" alt="sweet5" src="https://github.com/user-attachments/assets/fda3f3aa-47d3-426f-b0be-bad6c2bbafa9" />
+
 
 ```
-<img width="1918" height="1017" alt="sweet1" src="https://github.com/user-attachments/assets/1652af20-adcf-4e2f-b801-e49cdc744156" />
 
-<img width="1892" height="916" alt="sweet2" src="https://github.com/user-attachments/assets/278b3f42-c8ab-422f-b548-018772ffd2ca" />
-<img width="1895" height="952" alt="sweet3" src="https://github.com/user-attachments/assets/f1933f7a-b93e-4d7b-9547-f670eba1d518" />
-<img width="1907" height="957" alt="sweet4" src="https://github.com/user-attachments/assets/b14ccca6-b07c-4347-a006-21cb6b817a2f" />
-<img width="1890" height="920" alt="sweet5" src="https://github.com/user-attachments/assets/5ae969ec-7d46-4ca8-bf78-e039103a8b86" />
 
 
 
