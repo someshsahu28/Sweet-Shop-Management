@@ -14,15 +14,17 @@ A full-stack TDD kata project for managing a sweet shop with user authentication
 ## Tech Stack
 
 ### Backend
-- Node.js with TypeScript
-- Express.js
-- SQLite (database)
-- JWT (authentication)
-- Jest (testing)
+
+* Node.js with TypeScript
+* Express.js
+* SQLite (database)
+* JWT (authentication)
+* Jest (testing)
 
 ### Frontend
-- React with TypeScript
-- Modern UI framework
+
+* React with TypeScript
+* Modern UI framework
 
 ## Getting Started
 
@@ -47,19 +49,22 @@ The frontend will run on `http://localhost:3001` and proxy API requests to the b
 ## API Endpoints
 
 ### Authentication
-- `POST /api/auth/register` - Register a new user
-- `POST /api/auth/login` - Login user
+
+* `POST /api/auth/register` – Register a new user
+* `POST /api/auth/login` – Login user
 
 ### Sweets (Protected)
-- `POST /api/sweets` - Add a new sweet
-- `GET /api/sweets` - Get all sweets
-- `GET /api/sweets/search` - Search sweets
-- `PUT /api/sweets/:id` - Update a sweet
-- `DELETE /api/sweets/:id` - Delete a sweet (Admin only)
+
+* `POST /api/sweets` – Add a new sweet
+* `GET /api/sweets` – Get all sweets
+* `GET /api/sweets/search` – Search sweets
+* `PUT /api/sweets/:id` – Update a sweet
+* `DELETE /api/sweets/:id` – Delete a sweet (Admin only)
 
 ### Inventory (Protected)
-- `POST /api/sweets/:id/purchase` - Purchase a sweet
-- `POST /api/sweets/:id/restock` - Restock a sweet (Admin only)
+
+* `POST /api/sweets/:id/purchase` – Purchase a sweet
+* `POST /api/sweets/:id/restock` – Restock a sweet (Admin only)
 
 ## Running Tests
 
@@ -75,30 +80,43 @@ npm run test:coverage # Run tests with coverage report
 ## Development Approach
 
 This project follows Test-Driven Development (TDD) principles:
+
 1. Write tests first (Red)
 2. Implement functionality (Green)
 3. Refactor code (Refactor)
 
 The test files are located in `backend/src/__tests__/` and cover:
-- Authentication (register/login)
-- Sweets CRUD operations
-- Inventory management (purchase/restock)
-- Admin-only endpoints
+
+* Authentication (register/login)
+* Sweets CRUD operations
+* Inventory management (purchase/restock)
+* Admin-only endpoints
 
 ## Features
 
 ### User Features
-- User registration and login with JWT authentication
-- Browse all available sweets
-- Search sweets by name, category, or price range
-- Purchase sweets (decreases inventory)
+
+* User registration and login with JWT authentication
+* Browse all available sweets
+* Search sweets by name, category, or price range
+* Purchase sweets (decreases inventory)
 
 ### Admin Features
-- All user features plus:
-- Add new sweets
-- Edit existing sweets
-- Delete sweets
-- Restock inventory
+
+* All user features plus:
+* Add new sweets
+* Edit existing sweets
+* Delete sweets
+* Restock inventory
+
+## Admin Portal Credentials
+
+For accessing the admin portal during development/testing, use the following credentials:
+
+* **Email:** `admin@example.com`
+* **Password:** `admin@123`
+
+> ⚠️ These credentials are for local development only. Do **not** use them in production environments.
 
 ## Database
 
@@ -107,6 +125,7 @@ The application uses SQLite for data persistence. The database file (`sweet_shop
 ### Creating an Admin User
 
 To create an admin user, you can either:
+
 1. Manually insert into the database with `role = 'admin'`
 2. Use a database tool to update an existing user's role
 
@@ -125,7 +144,8 @@ DB_PATH=./sweet_shop.db
 
 This project uses AI tools for development. Commits that include AI assistance include co-author trailers as per the project requirements.
 
-Example commit message with AI co-authorship:
+### Example Commit Message
+
 ```
 Add authentication endpoints
 
@@ -133,10 +153,13 @@ Implemented JWT-based authentication with register and login endpoints.
 
 Co-authored-by: AI Assistant <ai@example.com>
 ```
+
+```
 <img width="1918" height="1017" alt="<img width="1892" height="916" alt="sweet2" src="https://github.com/user-attachments/assets/8c2ebc8a-69e7-441d-8f21-cf80c78b759e" />
 sweet1" src="https://github.com/user-attachments/assets/99747e92-b65e-4982-bdbb-6a66e6012ab7" />
 <img width="1895" height="952" alt="sweet3" src="https://github.com/user-attachments/assets/641d0dae-4fd3-40c1-99c3-42eeaa0b9f0a" />
 <img width="1907" height="957" alt="sweet4" src="https://github.com/user-attachments/assets/7224c85a-8313-42a3-b1ac-9817b0dd9316" />
 <img width="1890" height="920" alt="sweet5" src="https://github.com/user-attachments/assets/a7ecfdc9-ec45-4e31-9d3b-21fc84e43995" />
+<img width="1918" height="1017" alt="sweet1" src="https://github.com/user-attachments/assets/042020fc-f857-433d-bb20-413e90b1adcd" />
 
 
