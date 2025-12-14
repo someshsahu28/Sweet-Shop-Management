@@ -133,4 +133,10 @@ Implemented JWT-based authentication with register and login endpoints.
 
 Co-authored-by: AI Assistant <ai@example.com>
 ```
+<img width="1918" height="1017" alt="<img width="1892" height="916" alt="sweet2" src="https://github.com/user-attachments/assets/8c2ebc8a-69e7-441d-8f21-cf80c78b759e" />
+sweet1" src="https://github.com/user-attachments/assets/99747e92-b65e-4982-bdbb-6a66e6012ab7" />
+<img width="1895" height="952" alt="sweet3" src="https://github.com/user-attachments/assets/641d0dae-4fd3-40c1-99c3-42eeaa0b9f0a" />
+<img width="1907" height="957" alt="sweet4" src="https://github.com/user-attachments/assets/7224c85a-8313-42a3-b1ac-9817b0dd9316" />
+<img width="1890" height="920" alt="sweet5" src="https://github.com/user-attachments/assets/a7ecfdc9-ec45-4e31-9d3b-21fc84e43995" />
+
 
