@@ -137,7 +137,7 @@ Create a `.env` file in the `backend` directory:
 PORT=3000
 JWT_SECRET=your-super-secret-jwt-key-change-this-in-production
 NODE_ENV=development
-DB_PATH=./sweet_shop.db
+DATABASE_URL =./sweet_shop.db
 ```
 
 ## AI Co-authorship
